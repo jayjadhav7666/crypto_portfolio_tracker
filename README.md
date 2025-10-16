@@ -58,8 +58,6 @@ flutter build apk --release
 
 ### Recorded demo (public link)
 
-Please add a public video link demonstrating the implemented features (UI/UX changes and offline behavior). You can record with any screen recorder and upload to a public host (e.g., Google Drive with "Anyone with the link", YouTube unlisted, or Loom), then paste the link below.
-
 - Video link: <ADD_PUBLIC_VIDEO_LINK_HERE>
 
 Suggested demo flow:
@@ -67,7 +65,6 @@ Suggested demo flow:
 - Show portfolio updates and prices.
 - Close the app, disable network, reopen the app; demonstrate holdings and last-known prices still showing offline.
 
----
 
 ### Architectural choices
 
@@ -82,7 +79,7 @@ Suggested demo flow:
 - Networking: `ApiService` calls CoinGecko endpoints for coin list and current USD prices.
 - UI/UX:
   - Material 3 theme with `colorSchemeSeed` for consistent styling.
-  - Enhanced add-asset bottom sheet with search, selection, and quantity input.
+  - Enhanced add-asset  with search, selection, and quantity input.
 
 ---
 
@@ -128,8 +125,6 @@ All versions are defined in `pubspec.yaml`.
 flutter doctor -v
 ```
 
----
 
-### License
 
 This project is provided as-is for demonstration purposes.
