@@ -58,7 +58,7 @@ flutter build apk --release
 
 ### Recorded demo (public link)
 
-- Video link: <ADD_PUBLIC_VIDEO_LINK_HERE>
+- Video link: https://drive.google.com/drive/folders/1mvU4zdxRXW5_FsLBM4b8U_9bqz48BJbi?usp=drive_link
 
 Suggested demo flow:
 - Launch the app online; show initial coin list load and adding an asset via the bottom sheet.
